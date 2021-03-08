@@ -362,7 +362,107 @@ footer .footer-content .footer-set {
   height: 30px;
   border: 1px solid hsl(0, 0%, 100%);
 }
-
+@media only screen and (max-width: 1026px) {
+  .curvy {
+    top: 13%;
+  }
+  .offers {
+    margin-top: 5%;
+  }
+  .illustration-image {
+    width: 55%;
+  }
+  .test-container .test {
+    height: unset;
+    font-size: 12px;
+  }
+  .test-container > img {
+    top: 23%;
+  }
+  .test-container .test img {
+    width: 40px;
+    height: 40px;
+  }
+  .test-info div {
+    width: 75%;
+  }
+  .test-info .post {
+    font-size: 10px;
+  }
+  .form-footer {
+    height: 1000px;
+  }
+  .form-footer .form {
+    height: 35%;
+    top: 10%;
+  }
+  .form-footer .form div {
+    flex-direction: column;
+    align-items: center;
+    height: 33%;
+  }
+  .form-footer .form div input {
+    width: 80%;
+  }
+  footer .footer-content {
+    padding-top: 15%;
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 770px) {
+  .curvy {
+    top: 12%;
+  }
+  .illustration-image {
+    width: 70%;
+  }
+  .test-container {
+    width: 95%;
+  }
+  .test-container > img {
+    top: 22%;
+  }
+  .form-footer {
+    height: 1900px;
+  }
+  .form-footer .empty {
+    height: 20%;
+  }
+  .form-footer footer {
+    height: 80%;
+  }
+  .form-footer .form {
+    height: 17%;
+    width: 80%;
+    top: 10%;
+  }
+  footer .footer-content {
+    width: 90%;
+    padding-top: 26%;
+  }
+  footer .footer-content .footer-set {
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .footer-set .footer-item {
+    width: 100%;
+    height: unset;
+  }
+  .footer-link span {
+    width: 95%;
+  }
+  .socials {
+    justify-content: center;
+    width: 100%;
+  }
+  .socials a {
+    margin-left: 3%;
+    display: flex;
+    align-self: center;
+    width: 50px;
+    height: 50px;
+  }
+}
 /* Responsive styling for screen sizes of 429px and below*/
 @media only screen and (max-width: 430px) {
   #navbar ul {
@@ -477,7 +577,7 @@ footer .footer-content .footer-set {
     width: 100%;
   }
   .form-footer footer {
-    height: 1000px;
+    height: 1200px;
   }
   footer .footer-content {
     width: 80%;
